@@ -1,4 +1,4 @@
-const BASE_URL = ("Starving-Rtist.github.io") //SWITCHING between "Starving-Rtist.github.io" and "http://localhost:3000/dishes" for web hosting purposes
+const BASE_URL = ("https://starving-rtist.github.io/") //SWITCHING between "https://starving-rtist.github.io/" and "http://localhost:3000/dishes" for web hosting purposes
 
 fetch(BASE_URL)
     .then(resp => resp.json())

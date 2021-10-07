@@ -32,6 +32,9 @@ function renderFood(dish){
         selectedDish = dish;
     })
 
+    //hovering effects for menu images
+    images.addEventListener('mouseenter', () => images.src = "./assets/eatme.jpg");
+    images.addEventListener('mouseleave', () => images.src = dish.image);
 
 }
 

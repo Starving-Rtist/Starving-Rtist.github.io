@@ -1,4 +1,4 @@
-const BASE_URL = ("https://starving-rtist.github.io/dishes") //SWITCHING between "https://my-json-server.typicode.com/Starving-Rtist/Starving-Rtist.github.io/dishes" and "http://localhost:3000/dishes" for web hosting purposes
+const BASE_URL = ("https://starving-rtist.github.io/index.json") //SWITCHING between "https://my-json-server.typicode.com/Starving-Rtist/Starving-Rtist.github.io/dishes" and "http://localhost:3000/dishes" for web hosting purposes
 
 fetch(BASE_URL)
     .then(resp => resp.json())
